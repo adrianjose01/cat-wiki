@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://image-uploader-via9.onrender.com/">
+    <a href="[https://image-uploader-via9.onrender.com/](https://cat-wiki-w2gm.onrender.com/)">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/adrianjose01/Image-uploader-React">
+    <a href="https://github.com/adrianjose01/cat-wiki">
       Solution
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx">
+    <a href="https://legacy.devchallenges.io/challenges/f4NJ53rcfgrP6sBMD2jt">
       Challenge
     </a>
   </h3>
@@ -36,14 +36,13 @@
 
 ## Overview
 
-![screenshot](https://firebasestorage.googleapis.com/v0/b/upload-image-1409e.appspot.com/o/2480933549486699?alt=media&token=8857e8de-c07c-419d-baea-dc57cade83c7)
+![screenshot](https://firebasestorage.googleapis.com/v0/b/upload-image-1409e.appspot.com/o/18089153879444675?alt=media&token=35f440ea-4293-4e37-a563-9aed7b626d53)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Firebase](https://firebase.google.com/)
 
 ## Features
 
