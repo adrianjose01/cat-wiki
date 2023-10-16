@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Logo from "./assests/CatwikiLogo.svg";
+import HomePage from "./components/HomePage";
+import Footer from "./components/Footer";
+import TopTen from "./components/TopTen";
+import { Link } from "react-router-dom";
+import Breed from "./components/Breed";
+import CatInfo from "./components/CatInfo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Link to="/">
+        <img src={Logo.toString()} alt="Logo" />
+      </Link>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/top-ten" element={<TopTen />} />
+        <Route path="breed/:breedId" element={<Breed />} />
+        <Route path="/why-cats" element={<CatInfo />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
