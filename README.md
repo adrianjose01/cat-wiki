@@ -58,7 +58,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/adrianjose01/Image-uploader-React
+$ git clone https://github.com/adrianjose01/cat-wiki
 
 # Install dependencies
 $ npm install
